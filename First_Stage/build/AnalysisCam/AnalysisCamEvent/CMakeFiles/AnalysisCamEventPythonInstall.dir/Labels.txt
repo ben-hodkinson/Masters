@@ -1,0 +1,6 @@
+# Target labels
+ AnalysisCamEvent
+# Source files and their labels
+/home/mleigh/workdir/First_Stage/build/x86_64-slc6-gcc62-opt/python/AnalysisCamEvent/ExecuteTimeEstimator.py
+/home/mleigh/workdir/First_Stage/source/AnalysisCam/AnalysisCamEvent/python/ExecuteTimeEstimator.py
+/home/mleigh/workdir/First_Stage/build/x86_64-slc6-gcc62-opt/python/AnalysisCamEvent/ExecuteTimeEstimator.py.rule

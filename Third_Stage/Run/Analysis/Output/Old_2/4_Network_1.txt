@@ -1,0 +1,17 @@
+4:etmiss:SZee_all        : 36.27  +-   7.10 
+4:etmiss:SZmumu_all      : 35.49  +-   5.67 
+4:etmiss:Ztt_all         : 0.00   +-   0.00 
+4:etmiss:ttbar_1in3      : 382.63 +-  20.08 
+4:etmiss:top_1in3        : 59.05  +-   7.21 
+4:etmiss:antitop_1in3    : 43.61  +-   6.27 
+4:etmiss:ZZ_1in3         : 17.87  +-   1.68 
+4:etmiss:WZ_1in3         : 17.52  +-   1.21 
+4:etmiss:WW_1in3         : 193.86 +-   6.19 
+__________________________________________________
+Total MC                 : 786.29 +-  28.10 
+
+Observed                 : 861.00 +-  34.02 
+
+4:etmiss:SL550X001_all   : 0.69   +-   0.13 
+4:etmiss:SL400X250_all   : 7.30   +-   0.85 
+4:etmiss:SL300X200_all   : 32.68  +-   3.84 

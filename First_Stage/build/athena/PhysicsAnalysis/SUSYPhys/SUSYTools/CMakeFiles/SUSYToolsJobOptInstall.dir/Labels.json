@@ -1,0 +1,49 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/build/x86_64-slc6-gcc62-opt/jobOptions/SUSYTools/applyST.py"
+		},
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/build/x86_64-slc6-gcc62-opt/jobOptions/SUSYTools/minimalExampleJobOptions_atlfast.py"
+		},
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/build/x86_64-slc6-gcc62-opt/jobOptions/SUSYTools/minimalExampleJobOptions_data.py"
+		},
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/build/x86_64-slc6-gcc62-opt/jobOptions/SUSYTools/minimalExampleJobOptions_mc.py"
+		},
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/source/athena/PhysicsAnalysis/SUSYPhys/SUSYTools/share/applyST.py"
+		},
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/source/athena/PhysicsAnalysis/SUSYPhys/SUSYTools/share/minimalExampleJobOptions_atlfast.py"
+		},
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/source/athena/PhysicsAnalysis/SUSYPhys/SUSYTools/share/minimalExampleJobOptions_data.py"
+		},
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/source/athena/PhysicsAnalysis/SUSYPhys/SUSYTools/share/minimalExampleJobOptions_mc.py"
+		},
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/build/x86_64-slc6-gcc62-opt/jobOptions/SUSYTools/applyST.py.rule"
+		},
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/build/x86_64-slc6-gcc62-opt/jobOptions/SUSYTools/minimalExampleJobOptions_atlfast.py.rule"
+		},
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/build/x86_64-slc6-gcc62-opt/jobOptions/SUSYTools/minimalExampleJobOptions_data.py.rule"
+		},
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/build/x86_64-slc6-gcc62-opt/jobOptions/SUSYTools/minimalExampleJobOptions_mc.py.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"SUSYTools"
+		],
+		"name" : "SUSYToolsJobOptInstall"
+	}
+}

@@ -1,0 +1,5 @@
+# Target labels
+ AnalysisCamEvent
+# Source files and their labels
+/home/mleigh/workdir/First_Stage/source/AnalysisCam/AnalysisCamEvent/src/components/AnalysisCamEvent_entries.cxx
+/home/mleigh/workdir/First_Stage/source/AnalysisCam/AnalysisCamEvent/src/components/AnalysisCamEvent_load.cxx

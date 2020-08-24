@@ -1,0 +1,22 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/build/x86_64-slc6-gcc62-opt/jobOptions/MyPackage/MyPackageAlgJobOptions.py"
+		},
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/source/MyPackage/share/MyPackageAlgJobOptions.py"
+		},
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/build/x86_64-slc6-gcc62-opt/jobOptions/MyPackage/MyPackageAlgJobOptions.py.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"MyPackage"
+		],
+		"name" : "MyPackageJobOptInstall"
+	}
+}

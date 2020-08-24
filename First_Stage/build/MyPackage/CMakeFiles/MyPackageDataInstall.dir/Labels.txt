@@ -1,0 +1,3 @@
+# Target labels
+ MyPackage
+# Source files and their labels

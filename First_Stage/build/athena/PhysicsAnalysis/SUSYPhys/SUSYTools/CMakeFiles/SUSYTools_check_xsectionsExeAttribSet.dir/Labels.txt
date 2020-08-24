@@ -1,0 +1,5 @@
+# Target labels
+ SUSYTools
+# Source files and their labels
+/home/mleigh/workdir/First_Stage/build/athena/PhysicsAnalysis/SUSYPhys/SUSYTools/CMakeFiles/SUSYTools_check_xsectionsExeAttribSet
+/home/mleigh/workdir/First_Stage/build/athena/PhysicsAnalysis/SUSYPhys/SUSYTools/CMakeFiles/SUSYTools_check_xsectionsExeAttribSet.rule

@@ -1,0 +1,6 @@
+# Target labels
+ SUSYTools
+# Source files and their labels
+/home/mleigh/workdir/First_Stage/build/x86_64-slc6-gcc62-opt/python/SUSYTools/__init__.py
+/home/mleigh/workdir/First_Stage/source/athena/PhysicsAnalysis/SUSYPhys/SUSYTools/python/__init__.py
+/home/mleigh/workdir/First_Stage/build/x86_64-slc6-gcc62-opt/python/SUSYTools/__init__.py.rule

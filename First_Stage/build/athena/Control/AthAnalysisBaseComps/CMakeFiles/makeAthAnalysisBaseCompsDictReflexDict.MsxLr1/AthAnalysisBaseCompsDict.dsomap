@@ -1,0 +1,5 @@
+[ libAthAnalysisBaseCompsDict.so ]
+# List of selected classes
+class AAH
+class AthAnalysisHelper
+header AthAnalysisHelper.h

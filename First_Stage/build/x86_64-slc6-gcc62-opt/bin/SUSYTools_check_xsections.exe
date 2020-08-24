@@ -1,0 +1,5 @@
+#!/bin/sh
+set -e
+echo "WARNING Please stop using SUSYTools_check_xsections.exe, and use SUSYTools_check_xsections instead"
+echo ""
+exec SUSYTools_check_xsections "$@"

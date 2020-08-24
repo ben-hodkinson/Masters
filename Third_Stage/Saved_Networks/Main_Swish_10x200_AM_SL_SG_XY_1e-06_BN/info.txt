@@ -1,0 +1,72 @@
+network_prefix:  Final_
+activation:  Swish
+depth:  10
+width:  200
+dropout:  0.0
+batchnorm:  True
+weighted_learning:  False
+network:  AM
+loss_fn:  SL
+optimiser:  SG
+out_type:  XY
+train_set_size:  8837525
+test_set_size:  500000
+train_dataset:  combined_train.csv
+test_dataset:  combined_test.csv
+stats_dataset:  combined_stats.csv
+load_previous:  Final_Swish_10x200_AM_SL_SG_XY_1e-06_BN
+change_name:  
+learning_rate:  0.001
+momentum:  0.9
+L2_regularisation:  0.0
+alternative_weight:  0
+scheduler_on:  0
+mini_batch_size:  5000
+number_of_workers:  12
+early_stop_patience:  500
+max_epochs:  10000
+save_every:  1000
+print_running:  True
+network_base_dir:  /home/matthew/Documents/Masters/Met_network/Saved_Networks/
+data_base_dir:  /home/matthew/Documents/Masters/Met_network/Data/Learning/
+
+Training speed:  3.829e-06s
+Epochs trained:  6573
+Best epoch:      6074
+Best test loss:  0.206791578125
+
+AMANNDA(
+  (fc): Sequential(
+    (lin_1): Linear(in_features=65, out_features=200, bias=True)
+    (act_1): Swish()
+    (btn_1): BatchNorm1d(200, eps=1e-05, momentum=0.01, affine=True, track_running_stats=True)
+    (lin_2): Linear(in_features=200, out_features=200, bias=True)
+    (act_2): Swish()
+    (btn_2): BatchNorm1d(200, eps=1e-05, momentum=0.01, affine=True, track_running_stats=True)
+    (lin_3): Linear(in_features=200, out_features=200, bias=True)
+    (act_3): Swish()
+    (btn_3): BatchNorm1d(200, eps=1e-05, momentum=0.01, affine=True, track_running_stats=True)
+    (lin_4): Linear(in_features=200, out_features=200, bias=True)
+    (act_4): Swish()
+    (btn_4): BatchNorm1d(200, eps=1e-05, momentum=0.01, affine=True, track_running_stats=True)
+    (lin_5): Linear(in_features=200, out_features=200, bias=True)
+    (act_5): Swish()
+    (btn_5): BatchNorm1d(200, eps=1e-05, momentum=0.01, affine=True, track_running_stats=True)
+    (lin_6): Linear(in_features=200, out_features=200, bias=True)
+    (act_6): Swish()
+    (btn_6): BatchNorm1d(200, eps=1e-05, momentum=0.01, affine=True, track_running_stats=True)
+    (lin_7): Linear(in_features=200, out_features=200, bias=True)
+    (act_7): Swish()
+    (btn_7): BatchNorm1d(200, eps=1e-05, momentum=0.01, affine=True, track_running_stats=True)
+    (lin_8): Linear(in_features=200, out_features=200, bias=True)
+    (act_8): Swish()
+    (btn_8): BatchNorm1d(200, eps=1e-05, momentum=0.01, affine=True, track_running_stats=True)
+    (lin_9): Linear(in_features=200, out_features=200, bias=True)
+    (act_9): Swish()
+    (btn_9): BatchNorm1d(200, eps=1e-05, momentum=0.01, affine=True, track_running_stats=True)
+    (lin_10): Linear(in_features=200, out_features=200, bias=True)
+    (act_10): Swish()
+    (btn_10): BatchNorm1d(200, eps=1e-05, momentum=0.01, affine=True, track_running_stats=True)
+    (lin_out): Linear(in_features=200, out_features=2, bias=True)
+  )
+)

@@ -1,0 +1,31 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/build/x86_64-slc6-gcc62-opt/jobOptions/AthAnalysisBaseComps/ContainerRemapping.py"
+		},
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/build/x86_64-slc6-gcc62-opt/jobOptions/AthAnalysisBaseComps/SuppressLogging.py"
+		},
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/source/athena/Control/AthAnalysisBaseComps/share/ContainerRemapping.py"
+		},
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/source/athena/Control/AthAnalysisBaseComps/share/SuppressLogging.py"
+		},
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/build/x86_64-slc6-gcc62-opt/jobOptions/AthAnalysisBaseComps/ContainerRemapping.py.rule"
+		},
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/build/x86_64-slc6-gcc62-opt/jobOptions/AthAnalysisBaseComps/SuppressLogging.py.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"AthAnalysisBaseComps"
+		],
+		"name" : "AthAnalysisBaseCompsJobOptInstall"
+	}
+}

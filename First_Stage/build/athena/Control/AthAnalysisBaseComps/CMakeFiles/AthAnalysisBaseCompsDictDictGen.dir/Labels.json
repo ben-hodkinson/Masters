@@ -1,0 +1,22 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/build/athena/Control/AthAnalysisBaseComps/CMakeFiles/AthAnalysisBaseCompsDictDictGen"
+		},
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/build/athena/Control/AthAnalysisBaseComps/CMakeFiles/AthAnalysisBaseCompsDictDictGen.rule"
+		},
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/build/athena/Control/AthAnalysisBaseComps/CMakeFiles/AthAnalysisBaseCompsDict.dsomap.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"AthAnalysisBaseComps"
+		],
+		"name" : "AthAnalysisBaseCompsDictDictGen"
+	}
+}

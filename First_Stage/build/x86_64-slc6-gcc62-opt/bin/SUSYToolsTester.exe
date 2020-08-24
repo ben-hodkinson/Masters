@@ -1,0 +1,5 @@
+#!/bin/sh
+set -e
+echo "WARNING Please stop using SUSYToolsTester.exe, and use SUSYToolsTester instead"
+echo ""
+exec SUSYToolsTester "$@"

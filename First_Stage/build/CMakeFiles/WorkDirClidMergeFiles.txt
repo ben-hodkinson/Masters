@@ -1,0 +1,3 @@
+/home/mleigh/workdir/First_Stage/build/AnalysisCam/AnalysisCamEvent/AnalysisCamEvent_clid.db
+/home/mleigh/workdir/First_Stage/build/athena/Control/AthAnalysisBaseComps/AthAnalysisBaseComps_clid.db
+/home/mleigh/workdir/First_Stage/build/athena/PhysicsAnalysis/SUSYPhys/SUSYTools/SUSYTools_clid.db

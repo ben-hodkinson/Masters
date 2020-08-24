@@ -1,0 +1,113 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/source/AnalysisCam/AnalysisCamEvent/AnalysisCamEvent/AnalysisCamEventDict.h"
+		},
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/source/AnalysisCam/AnalysisCamEvent/AnalysisCamEvent/CamAlgorithm.h"
+		},
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/source/AnalysisCam/AnalysisCamEvent/AnalysisCamEvent/CamAudit.h"
+		},
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/source/AnalysisCam/AnalysisCamEvent/AnalysisCamEvent/CamDeque.h"
+		},
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/source/AnalysisCam/AnalysisCamEvent/AnalysisCamEvent/CamEvent.h"
+		},
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/source/AnalysisCam/AnalysisCamEvent/AnalysisCamEvent/CamMetaData.h"
+		},
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/source/AnalysisCam/AnalysisCamEvent/AnalysisCamEvent/CamObject.h"
+		},
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/source/AnalysisCam/AnalysisCamEvent/AnalysisCamEvent/CamProperty.h"
+		},
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/source/AnalysisCam/AnalysisCamEvent/AnalysisCamEvent/CamService.h"
+		},
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/source/AnalysisCam/AnalysisCamEvent/AnalysisCamEvent/CamTool.h"
+		},
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/source/AnalysisCam/AnalysisCamEvent/AnalysisCamEvent/CamVector.h"
+		},
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/source/AnalysisCam/AnalysisCamEvent/AnalysisCamEvent/CamWriter.h"
+		},
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/source/AnalysisCam/AnalysisCamEvent/AnalysisCamEvent/ExecuteTimeEstimator.h"
+		},
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/source/AnalysisCam/AnalysisCamEvent/AnalysisCamEvent/ICamService.h"
+		},
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/source/AnalysisCam/AnalysisCamEvent/AnalysisCamEvent/ICamTool.h"
+		},
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/source/AnalysisCam/AnalysisCamEvent/AnalysisCamEvent/LinkDef.h"
+		},
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/source/AnalysisCam/AnalysisCamEvent/src/CamAlgorithm.cxx"
+		},
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/source/AnalysisCam/AnalysisCamEvent/src/CamAudit.cxx"
+		},
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/source/AnalysisCam/AnalysisCamEvent/src/CamDeque.cxx"
+		},
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/source/AnalysisCam/AnalysisCamEvent/src/CamEvent.cxx"
+		},
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/source/AnalysisCam/AnalysisCamEvent/src/CamExampleAlg.cxx"
+		},
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/source/AnalysisCam/AnalysisCamEvent/src/CamMetaData.cxx"
+		},
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/source/AnalysisCam/AnalysisCamEvent/src/CamObject.cxx"
+		},
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/source/AnalysisCam/AnalysisCamEvent/src/CamProperty.cxx"
+		},
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/source/AnalysisCam/AnalysisCamEvent/src/CamService.cxx"
+		},
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/source/AnalysisCam/AnalysisCamEvent/src/CamTool.cxx"
+		},
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/source/AnalysisCam/AnalysisCamEvent/src/CamVector.cxx"
+		},
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/source/AnalysisCam/AnalysisCamEvent/src/CamWriter.cxx"
+		},
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/source/AnalysisCam/AnalysisCamEvent/src/CamxAODExampleAlg.cxx"
+		},
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/source/AnalysisCam/AnalysisCamEvent/src/ExecuteTimeEstimator.cxx"
+		},
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/build/AnalysisCam/AnalysisCamEvent/CMakeFiles/AnalysisCamEventCintDict.cxx",
+			"labels" : 
+			[
+				"AnalysisCamEvent"
+			]
+		},
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/build/AnalysisCam/AnalysisCamEvent/CMakeFiles/AnalysisCamEventCintDict.cxx.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"AnalysisCamEvent"
+		],
+		"name" : "AnalysisCamEventLib"
+	}
+}

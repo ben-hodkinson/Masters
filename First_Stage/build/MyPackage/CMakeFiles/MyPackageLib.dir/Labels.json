@@ -1,0 +1,16 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/source/MyPackage/src/MyPackageAlg.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"MyPackage"
+		],
+		"name" : "MyPackageLib"
+	}
+}

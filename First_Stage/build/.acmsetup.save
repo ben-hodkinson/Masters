@@ -1,0 +1,4 @@
+SourceArea = /atlas/mleigh/First_Stage/source
+TestArea = /atlas/mleigh/First_Stage/build
+ACM_GITLAB_PATH_PREFIX = https://:@gitlab.cern.ch:8443/
+asetupArguments = AthAnalysis,21.2.31

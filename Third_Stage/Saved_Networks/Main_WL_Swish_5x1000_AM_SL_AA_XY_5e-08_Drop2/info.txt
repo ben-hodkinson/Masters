@@ -1,0 +1,57 @@
+network_prefix:  Final_
+activation:  Swish
+depth:  5
+width:  1000
+dropout:  0.2
+batchnorm:  False
+weighted_learning:  True
+network:  AM
+loss_fn:  SL
+optimiser:  AA
+out_type:  XY
+train_set_size:  8837525
+test_set_size:  500000
+train_dataset:  combined_train.csv
+test_dataset:  combined_test.csv
+stats_dataset:  combined_stats.csv
+load_previous:  Final_WL_Swish_5x1000_AM_SL_AA_XY_5e-08_Drop2
+change_name:  
+learning_rate:  5e-08
+momentum:  0.0
+L2_regularisation:  0.0
+alternative_weight:  0
+scheduler_on:  0
+mini_batch_size:  4000
+number_of_workers:  12
+early_stop_patience:  500
+max_epochs:  10000
+save_every:  1000
+print_running:  True
+network_base_dir:  /home/matthew/Documents/Masters/Met_network/Saved_Networks/
+data_base_dir:  /home/matthew/Documents/Masters/Met_network/Data/Learning/
+
+Training speed:  5.127e-06s
+Epochs trained:  8166
+Best epoch:      8084
+Best test loss:  1.437705
+
+AMANNDA(
+  (fc): Sequential(
+    (lin_1): Linear(in_features=65, out_features=1000, bias=True)
+    (act_1): Swish()
+    (dro_1): Dropout(p=0.2)
+    (lin_2): Linear(in_features=1000, out_features=1000, bias=True)
+    (act_2): Swish()
+    (dro_2): Dropout(p=0.2)
+    (lin_3): Linear(in_features=1000, out_features=1000, bias=True)
+    (act_3): Swish()
+    (dro_3): Dropout(p=0.2)
+    (lin_4): Linear(in_features=1000, out_features=1000, bias=True)
+    (act_4): Swish()
+    (dro_4): Dropout(p=0.2)
+    (lin_5): Linear(in_features=1000, out_features=1000, bias=True)
+    (act_5): Swish()
+    (dro_5): Dropout(p=0.2)
+    (lin_out): Linear(in_features=1000, out_features=2, bias=True)
+  )
+)

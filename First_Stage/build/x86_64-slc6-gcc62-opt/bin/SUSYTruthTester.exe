@@ -1,0 +1,5 @@
+#!/bin/sh
+set -e
+echo "WARNING Please stop using SUSYTruthTester.exe, and use SUSYTruthTester instead"
+echo ""
+exec SUSYTruthTester "$@"

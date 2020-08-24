@@ -1,0 +1,56 @@
+package AnalysisCamEvent
+author Will Buttinger
+
+#had to enable serial make on JUST this package because some of the grid nodes aren't ready for this jelly
+private
+#macro_append MAKEFLAGS " -j1 "
+end_private
+
+
+use 	AtlasPolicy 	AtlasPolicy-*
+use AthenaBaseComps AthenaBaseComps-*   Control
+use 	AtlasROOT 	AtlasROOT-* External
+use      StoreGate      StoreGate-* Control
+use   GaudiInterface GaudiInterface-* External
+use   AtlasBoost     AtlasBoost-*   External
+use   SGTools     SGTools-*         Control
+use CxxUtils CxxUtils-* Control
+
+use xAODBase xAODBase-* Event/xAOD
+use xAODEventInfo xAODEventInfo-* Event/xAOD
+
+use AthAnalysisBaseComps AthAnalysisBaseComps-* Control
+
+use PATInterfaces PATInterfaces-* PhysicsAnalysis/AnalysisCommon
+
+private
+
+use xAODMissingET xAODMissingET-* Event/xAOD
+end_private
+
+apply_tag ROOTMathLibs
+apply_tag UseAnalysisCamEvent
+
+apply_pattern dual_use_library files=" *.cxx "
+
+#macro lib_AnalysisCamEvent_pp_cppflags " -DSGTOOLSVERSION=`echo '$(SGTOOLSVERSION)' | sed 's/[^0-9]*//g'` "
+
+##reflex library not needed at this time
+#private
+#use 	AtlasReflex	AtlasReflex-*	External -no_auto_imports
+#apply_pattern lcgdict dict=AnalysisCamEvent selectionfile=selection.xml headerfiles="../AnalysisCamEvent/AnalysisCamEventDict.h"
+#apply_pattern declare_scripts files="-s=$(AnalysisCamEvent_root)/bin camNewPackage.py "
+
+
+apply_pattern have_root_headers root_headers="CamObject.h CamVector.h CamDeque.h CamEvent.h ../src/LinkDef.h" headers_lib=AnalysisCamEventLib
+
+end_private
+
+apply_pattern declare_joboptions files="*.py"
+apply_pattern declare_python_modules files="*.py"
+
+action checkreq "echo '>>>>>>CamEvent is disabling checkreq because it is overkill for private analysis!<<<<<<'"
+
+private
+macro cppdebugflags '$(cppdebugflags_s)'
+macro_remove componentshr_linkopts "-Wl,-s"

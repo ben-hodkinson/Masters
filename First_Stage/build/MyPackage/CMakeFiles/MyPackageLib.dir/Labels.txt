@@ -1,0 +1,4 @@
+# Target labels
+ MyPackage
+# Source files and their labels
+/home/mleigh/workdir/First_Stage/source/MyPackage/src/MyPackageAlg.cxx

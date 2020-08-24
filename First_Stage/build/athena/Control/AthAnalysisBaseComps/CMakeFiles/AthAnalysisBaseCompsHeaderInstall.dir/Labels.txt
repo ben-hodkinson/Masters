@@ -1,0 +1,5 @@
+# Target labels
+ AthAnalysisBaseComps
+# Source files and their labels
+/home/mleigh/workdir/First_Stage/build/x86_64-slc6-gcc62-opt/include/AthAnalysisBaseComps
+/home/mleigh/workdir/First_Stage/build/x86_64-slc6-gcc62-opt/include/AthAnalysisBaseComps.rule

@@ -1,0 +1,22 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/build/athena/PhysicsAnalysis/SUSYPhys/SUSYTools/CMakeFiles/SUSYToolsDictDictGen"
+		},
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/build/athena/PhysicsAnalysis/SUSYPhys/SUSYTools/CMakeFiles/SUSYToolsDictDictGen.rule"
+		},
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/build/athena/PhysicsAnalysis/SUSYPhys/SUSYTools/CMakeFiles/SUSYToolsDict.dsomap.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"SUSYTools"
+		],
+		"name" : "SUSYToolsDictDictGen"
+	}
+}

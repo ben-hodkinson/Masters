@@ -1,0 +1,19 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/source/athena/Control/AthAnalysisBaseComps/src/components/AthAnalysisBaseComps_entries.cxx"
+		},
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/source/athena/Control/AthAnalysisBaseComps/src/components/AthAnalysisBaseComps_load.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"AthAnalysisBaseComps"
+		],
+		"name" : "AthAnalysisBaseComps"
+	}
+}

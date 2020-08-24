@@ -1,0 +1,12 @@
+{ decls }
+namespace ST {  }
+namespace SUSY {  }
+
+[ libSUSYToolsDict.so ]
+# List of selected classes
+class ST::ISUSYObjDef_xAODTool
+class ST::SUSYObjDef_xAOD
+class SUSY::CrossSectionDB
+header ISUSYObjDef_xAODTool.h
+header SUSYObjDef_xAOD.h
+header SUSYCrossSection.h

@@ -1,0 +1,5 @@
+# Target labels
+ AthAnalysisBaseComps
+# Source files and their labels
+/home/mleigh/workdir/First_Stage/source/athena/Control/AthAnalysisBaseComps/src/components/AthAnalysisBaseComps_entries.cxx
+/home/mleigh/workdir/First_Stage/source/athena/Control/AthAnalysisBaseComps/src/components/AthAnalysisBaseComps_load.cxx

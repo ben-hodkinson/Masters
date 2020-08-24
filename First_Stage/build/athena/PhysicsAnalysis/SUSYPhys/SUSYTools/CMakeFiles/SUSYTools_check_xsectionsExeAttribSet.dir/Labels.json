@@ -1,0 +1,19 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/build/athena/PhysicsAnalysis/SUSYPhys/SUSYTools/CMakeFiles/SUSYTools_check_xsectionsExeAttribSet"
+		},
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/build/athena/PhysicsAnalysis/SUSYPhys/SUSYTools/CMakeFiles/SUSYTools_check_xsectionsExeAttribSet.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"SUSYTools"
+		],
+		"name" : "SUSYTools_check_xsectionsExeAttribSet"
+	}
+}

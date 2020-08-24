@@ -1,0 +1,19 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/build/x86_64-slc6-gcc62-opt/include/AthAnalysisBaseComps"
+		},
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/build/x86_64-slc6-gcc62-opt/include/AthAnalysisBaseComps.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"AthAnalysisBaseComps"
+		],
+		"name" : "AthAnalysisBaseCompsHeaderInstall"
+	}
+}

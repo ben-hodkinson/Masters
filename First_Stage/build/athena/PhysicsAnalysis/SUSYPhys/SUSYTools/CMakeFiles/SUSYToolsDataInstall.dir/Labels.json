@@ -1,0 +1,112 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/build/x86_64-slc6-gcc62-opt/data/SUSYTools/SUSYTools_Default.conf"
+		},
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/build/x86_64-slc6-gcc62-opt/data/SUSYTools/mc12_14TeV"
+		},
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/build/x86_64-slc6-gcc62-opt/data/SUSYTools/mc15_13TeV"
+		},
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/build/x86_64-slc6-gcc62-opt/data/SUSYTools/mc16_13TeV"
+		},
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/build/x86_64-slc6-gcc62-opt/data/SUSYTools/susy_crosssections.txt"
+		},
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/build/x86_64-slc6-gcc62-opt/data/SUSYTools/susy_crosssections_13TeV.txt"
+		},
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/build/x86_64-slc6-gcc62-opt/data/SUSYTools/susy_crosssections_14TeV.txt"
+		},
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/build/x86_64-slc6-gcc62-opt/data/SUSYTools/sync_xsdb.sh"
+		},
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/build/x86_64-slc6-gcc62-opt/data/SUSYTools/tau_selection_loose.conf"
+		},
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/build/x86_64-slc6-gcc62-opt/data/SUSYTools/tau_selection_medium.conf"
+		},
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/build/x86_64-slc6-gcc62-opt/data/SUSYTools/tau_selection_tight.conf"
+		},
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/build/x86_64-slc6-gcc62-opt/data/SUSYTools/tau_selection_veryloose.conf"
+		},
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/source/athena/PhysicsAnalysis/SUSYPhys/SUSYTools/data/SUSYTools_Default.conf"
+		},
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/source/athena/PhysicsAnalysis/SUSYPhys/SUSYTools/data/susy_crosssections.txt"
+		},
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/source/athena/PhysicsAnalysis/SUSYPhys/SUSYTools/data/susy_crosssections_13TeV.txt"
+		},
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/source/athena/PhysicsAnalysis/SUSYPhys/SUSYTools/data/susy_crosssections_14TeV.txt"
+		},
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/source/athena/PhysicsAnalysis/SUSYPhys/SUSYTools/data/sync_xsdb.sh"
+		},
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/source/athena/PhysicsAnalysis/SUSYPhys/SUSYTools/data/tau_selection_loose.conf"
+		},
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/source/athena/PhysicsAnalysis/SUSYPhys/SUSYTools/data/tau_selection_medium.conf"
+		},
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/source/athena/PhysicsAnalysis/SUSYPhys/SUSYTools/data/tau_selection_tight.conf"
+		},
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/source/athena/PhysicsAnalysis/SUSYPhys/SUSYTools/data/tau_selection_veryloose.conf"
+		},
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/build/x86_64-slc6-gcc62-opt/data/SUSYTools/SUSYTools_Default.conf.rule"
+		},
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/build/x86_64-slc6-gcc62-opt/data/SUSYTools/mc12_14TeV.rule"
+		},
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/build/x86_64-slc6-gcc62-opt/data/SUSYTools/mc15_13TeV.rule"
+		},
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/build/x86_64-slc6-gcc62-opt/data/SUSYTools/mc16_13TeV.rule"
+		},
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/build/x86_64-slc6-gcc62-opt/data/SUSYTools/susy_crosssections.txt.rule"
+		},
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/build/x86_64-slc6-gcc62-opt/data/SUSYTools/susy_crosssections_13TeV.txt.rule"
+		},
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/build/x86_64-slc6-gcc62-opt/data/SUSYTools/susy_crosssections_14TeV.txt.rule"
+		},
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/build/x86_64-slc6-gcc62-opt/data/SUSYTools/sync_xsdb.sh.rule"
+		},
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/build/x86_64-slc6-gcc62-opt/data/SUSYTools/tau_selection_loose.conf.rule"
+		},
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/build/x86_64-slc6-gcc62-opt/data/SUSYTools/tau_selection_medium.conf.rule"
+		},
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/build/x86_64-slc6-gcc62-opt/data/SUSYTools/tau_selection_tight.conf.rule"
+		},
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/build/x86_64-slc6-gcc62-opt/data/SUSYTools/tau_selection_veryloose.conf.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"SUSYTools"
+		],
+		"name" : "SUSYToolsDataInstall"
+	}
+}

@@ -1,0 +1,31 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/source/athena/PhysicsAnalysis/SUSYPhys/SUSYTools/src/ApplySUSYTools.h"
+		},
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/source/athena/PhysicsAnalysis/SUSYPhys/SUSYTools/src/SUSYToolsAlg.h"
+		},
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/source/athena/PhysicsAnalysis/SUSYPhys/SUSYTools/src/ApplySUSYTools.cxx"
+		},
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/source/athena/PhysicsAnalysis/SUSYPhys/SUSYTools/src/SUSYToolsAlg.cxx"
+		},
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/source/athena/PhysicsAnalysis/SUSYPhys/SUSYTools/src/components/SUSYTools_entries.cxx"
+		},
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/source/athena/PhysicsAnalysis/SUSYPhys/SUSYTools/src/components/SUSYTools_load.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"SUSYTools"
+		],
+		"name" : "SUSYTools"
+	}
+}

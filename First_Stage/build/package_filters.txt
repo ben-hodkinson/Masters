@@ -1,0 +1,5 @@
++ AnalysisCam/AnalysisCamEvent
++ athena/PhysicsAnalysis/SUSYPhys/SUSYTools
++ athena/Control/AthAnalysisBaseComps
+- athena/.*
+- AnalysisCam/.*

@@ -1,0 +1,38 @@
+package AnalysisCamROOT
+author Will Buttinger
+version AnalysisCamROOT-00-00-01
+
+
+use 	AtlasPolicy 	AtlasPolicy-*
+use 	AtlasROOT 	AtlasROOT-* External
+
+private
+#use AnalysisCamEvent AnalysisCamEvent-* PhysicsAnalysis/AnalysisCam
+end_private
+
+#for some reason, the next line is needed to be able to use TLorentzVectors in objects
+#made this public so that other packages can understand CamObjects
+
+apply_tag ROOTMathLibs
+apply_tag ROOTGraphicsLibs
+apply_tag ROOTTableLibs
+
+apply_tag ROOTRooFitLibs
+
+#macro rootTreePlayerLibs "" \
+#         ROOTTreePlayerLibs "-L$(ROOT_home)/lib -lTreePlayer"
+
+#apply_tag ROOTTreePlayerLibs  WHY DOESN'T THIS WORK!?
+
+
+library AnalysisCamROOTLib *.cxx
+apply_pattern named_installed_library library=AnalysisCamROOTLib
+
+macro_append AnalysisCamROOTLib_shlibflags " -lTreePlayer -lProof -lProofPlayer "
+
+apply_pattern have_root_headers     root_headers="TChannelInfo.h LinkDef.h"    headers_lib="AnalysisCamROOTLib"
+
+
+
+
+

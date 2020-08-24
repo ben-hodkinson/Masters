@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!-- Edited By POOL -->
+<!DOCTYPE POOLFILECATALOG SYSTEM "InMemory">
+<POOLFILECATALOG>
+  <File ID="60AC0D69-5AB7-904F-8022-51354DC2C6D9">
+    <physical>
+      <pfn filetype="ROOT_All" name="/atlas/DATAMC/Matt_Data/Small/sherpa_llvv/DAOD_JETM3.13599755._000010.pool.root.1"/>
+    </physical>
+    <logical/>
+  </File>
+
+  <File ID="1CF9499E-47BF-9148-9A0A-36F6B7453A81">
+    <physical>
+      <pfn filetype="ROOT_All" name="/atlas/DATAMC/Matt_Data/Small/Zee/DAOD_JETM3.13599665._000027.pool.root.1"/>
+    </physical>
+    <logical/>
+  </File>
+
+  <File ID="37B6899B-A934-FD4D-B48B-45377E9DA375">
+    <physical>
+      <pfn filetype="ROOT_All" name="WW_sample.root"/>
+    </physical>
+    <logical/>
+  </File>
+
+  <File ID="5B0F5002-C43C-404B-B67F-E9D8772D28FA">
+    <physical>
+      <pfn filetype="ROOT_All" name="SUSY_sample.root"/>
+    </physical>
+    <logical/>
+  </File>
+
+  <File ID="5B0F5002-C43C-404B-B67F-E9D8772D28FA">
+    <physical>
+      <pfn filetype="ROOT_All" name="../../Simulation/mc16_13TeV.396010.MGPy8EG_A14N23LO_SlepSlep_direct_550p0_1p0_2L8.deriv.DAOD_JETM3.e6710_a875_r10201_p3500/DAOD_JETM3.17654656._000001.pool.root.1"/>
+    </physical>
+    <logical/>
+  </File>
+
+  <File ID="D5D37BEE-C63D-A948-BDAD-8C2A0852F32F">
+    <physical>
+      <pfn filetype="ROOT_All" name="../../DXAODs/mc16_13TeV.395985.MGPy8EG_A14N23LO_SlepSlep_direct_400p0_250p0_2L8.deriv.DAOD_JETM3.e6710_a875_r10201_p3500/DAOD_JETM3.17654757._000001.pool.root.1"/>
+    </physical>
+    <logical/>
+  </File>
+
+  <File ID="C473683A-3D98-214E-8263-7B41C4FF6B95">
+    <physical>
+      <pfn filetype="ROOT_All" name="../../Data/DXAODs/data17_13TeV.periodB.physics_Main.PhysCont.DAOD_JETM3.grp17_v01_p3372/DAOD_JETM3.12599647._000041.pool.root.1"/>
+    </physical>
+    <logical/>
+  </File>
+
+  <File ID="47B894DD-893C-CF4B-BA8F-AD0C193D02DD">
+    <physical>
+      <pfn filetype="ROOT_All" name="../../Data/DXAODs/mc16_13TeV.395971.MGPy8EG_A14N23LO_SlepSlep_direct_300p0_200p0_2L8.deriv.DAOD_JETM3.e6710_a875_r10201_p3500/DAOD_JETM3.17654821._000001.pool.root.1"/>
+    </physical>
+    <logical/>
+  </File>
+
+</POOLFILECATALOG>

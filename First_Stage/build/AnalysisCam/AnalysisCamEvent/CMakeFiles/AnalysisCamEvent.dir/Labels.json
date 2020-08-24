@@ -1,0 +1,19 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/source/AnalysisCam/AnalysisCamEvent/src/components/AnalysisCamEvent_entries.cxx"
+		},
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/source/AnalysisCam/AnalysisCamEvent/src/components/AnalysisCamEvent_load.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"AnalysisCamEvent"
+		],
+		"name" : "AnalysisCamEvent"
+	}
+}

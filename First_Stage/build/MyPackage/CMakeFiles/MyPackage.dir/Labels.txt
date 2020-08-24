@@ -1,0 +1,5 @@
+# Target labels
+ MyPackage
+# Source files and their labels
+/home/mleigh/workdir/First_Stage/source/MyPackage/src/components/MyPackage_entries.cxx
+/home/mleigh/workdir/First_Stage/source/MyPackage/src/components/MyPackage_load.cxx

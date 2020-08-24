@@ -1,0 +1,64 @@
+package GeneralCamTools
+author will@cern.ch
+
+
+use AtlasPolicy AtlasPolicy-*
+use   GaudiInterface GaudiInterface-* External
+use AnalysisCamEvent AnalysisCamEvent-*   PhysicsAnalysis/AnalysisCam
+use AnalysisCamROOT AnalysisCamROOT-* PhysicsAnalysis/AnalysisCam
+
+#use PileupReweighting PileupReweighting-* PhysicsAnalysis/AnalysisCommon
+
+use JetJvtEfficiency JetJvtEfficiency-* Reconstruction/Jet
+use JetInterface JetInterface-* Reconstruction/Jet
+use JetCalibTools JetCalibTools-* Reconstruction/Jet
+use JetCPInterfaces JetCPInterfaces-* Reconstruction/Jet
+
+#use egammaInterfaces         egammaInterfaces-*       Reconstruction/egamma
+use xAODEgamma  xAODEgamma-*    Event/xAOD
+use IsolationCorrections IsolationCorrections-* PhysicsAnalysis/ElectronPhotonID
+use ElectronPhotonFourMomentumCorrection ElectronPhotonFourMomentumCorrection-* PhysicsAnalysis/ElectronPhotonID
+
+use  MuonSelectorTools          MuonSelectorTools-*             PhysicsAnalysis/MuonID
+
+#use MuonCombinedToolInterfaces  MuonCombinedToolInterfaces-*    Reconstruction/MuonIdentification
+use xAODMuon    xAODMuon-*  Event/xAOD
+use xAODTau 	xAODTau-* Event/xAOD
+use xAODMissingET xAODMissingET-* Event/xAOD
+
+use METInterface METInterface-* Reconstruction/MET
+
+use TauAnalysisTools TauAnalysisTools-* PhysicsAnalysis/TauID
+use MuonMomentumCorrections MuonMomentumCorrections-*   PhysicsAnalysis/MuonID/MuonIDAnalysis
+
+use CalibrationDataInterface CalibrationDataInterface-* PhysicsAnalysis/JetTagging/JetTagPerformanceCalibration
+use xAODBTaggingEfficiency xAODBTaggingEfficiency-* PhysicsAnalysis/JetTagging/JetTagPerformanceCalibration
+
+
+use ElectronEfficiencyCorrection ElectronEfficiencyCorrection-* PhysicsAnalysis/ElectronPhotonID
+use MuonEfficiencyCorrections MuonEfficiencyCorrections-* PhysicsAnalysis/MuonID/MuonIDAnalysis
+use JetJvtEfficiency JetJvtEfficiency-* Reconstruction/Jet
+use xAODBTaggingEfficiency xAODBTaggingEfficiency-* PhysicsAnalysis/JetTagging/JetTagPerformanceCalibration
+
+use IsolationSelection IsolationSelection-* PhysicsAnalysis/AnalysisCommon
+
+use TrigDecisionTool TrigDecisionTool-* Trigger/TrigAnalysis
+
+use AtlasROOT  AtlasROOT-* External
+
+
+
+private
+use xAODRootAccess xAODRootAccess-* Control
+use xAODLuminosity xAODLuminosity-* Event/xAOD
+use GoodRunsLists GoodRunsLists-* DataQuality
+use AthAnalysisBaseComps AthAnalysisBaseComps-* Control
+end_private
+
+#disable checkreq as its a pain in the neck
+action checkreq "echo 'disabling checkreq because its a pain'"
+
+library GeneralCamTools *.cxx -s=components *.cxx
+apply_pattern component_library
+
+apply_pattern declare_joboptions files="*.py"

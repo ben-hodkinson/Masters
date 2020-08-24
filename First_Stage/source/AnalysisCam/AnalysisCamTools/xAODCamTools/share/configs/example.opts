@@ -1,0 +1,57 @@
+/* 
+  This is an example of a complete configuration file for selecting
+  electrons and muons
+  
+  In this example, there are 2 category of each lepton type:
+  Baseline: these are the basic selection
+  Selected: these are with additional selections
+
+  Baseline electrons (baselineEl) are: Loose, pt>7 GeV, eta < 2.47
+  Selected electrons (MyElectrons) additionally have: Medium ID
+
+  Baseline muons (baselineMu) are: Loose, pt>5 GeV, eta < 2.7
+  Selected muons (MyMuons) additionally have: d0Significance < 3
+
+  The selected collections have the same entries as the baseline
+  but selected leptons are flagged with the 'selected' char decoration
+  
+*/
+
+
+//Baseline electron selections
+ToolSvc.baselineEl.MinPt = 7000.;
+ToolSvc.baselineEl.MaxEta = 2.47;
+ToolSvc.baselineEl.MaxZ0SinTheta=0.5;
+ToolSvc.baselineEl.MaxD0Sig=5.;
+ToolSvc.baselineEl.BadClusterCheck=true;
+
+//IDWorkingPoints will determine value of quality (int) property
+//In this example, 0 = Tight_Smooth, 1 = Medium_Smooth, 2 = Loose_CutBL_Smooth
+ToolSvc.baselineEl.IDWorkingPoints = {"Tight_Smooth","Medium_Smooth","Loose_CutBL_Smooth"};
+ToolSvc.baselineEl.MaxID = 2; //require leptons to be at least Loose_CutBL_Smooth
+
+//IsolationWorkingPoints adds decorations: isIsolXXXX
+ToolSvc.baselineEl.IsolationWorkingPoints = {"LooseTrackOnly","Loose","Gradient","FixedCutLoose"};
+
+//optional .. print cutflow from tool when finalizing
+//ToolSvc.baselineEl.PrintCutflow = true;
+
+//Selected electrons configuration
+ToolSvc.MyElectrons.InputCollection = "CamEleSelector/baselineEl"; //uses baseline electrons for input
+ToolSvc.MyElectrons.OutputDecoration = "selected"; //decorates selected leptons with 'selected' char decor
+ToolSvc.MyElectrons.MaxID = 1; //requires medium ID
+//could add additional requirements here ... options are the same as MaxID
+//e.g. ToolSvc.MyElectrons.MaxD0Sig=3
+
+
+//Baseline muon selections
+ToolSvc.baselineMu.MinPt = 5000.;
+ToolSvc.baselineMu.MinCaloTagPt = 15000.; //higher pt cut for calo tagged muons
+ToolSvc.baselineMu.MaxEta = 2.7;
+ToolSvc.baselineMu.MaxZ0SinTheta=0.5;
+ToolSvc.baselineMu.MaxID = 2; //means at least Loose
+ToolSvc.baselineMu.IsolationWorkingPoints = {"LooseTrackOnly","Loose","Gradient","FixedCutLoose"};
+
+ToolSvc.MyMuons.InputCollection = "CamMuonSelector/baselineMu";
+ToolSvc.MyMuons.OutputDecoration = "selected";
+ToolSvc.MyMuons.MaxD0Sig = 3.;

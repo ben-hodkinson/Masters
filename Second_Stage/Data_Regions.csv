@@ -1,0 +1,119 @@
+ID,        name,                                                       xsec,          kfac,           eff,          twe
+|          |                                                           |              |               |             |
+361106,    PowhegPythia8EvtGen_AZNLOCTEQ6L1_Zee,                       1901.1,        1.02600047339,  1.0,          37991129680
+361107,    PowhegPythia8EvtGen_AZNLOCTEQ6L1_Zmumu,                     1901.1,        1.02605444217,  1.0,          38000468792
+361108,    PowhegPythia8EvtGen_AZNLOCTEQ6L1_Ztautau,                   1901.1,        1.0260544421,   1.0,          89311405136
+|          |                                                           |              |               |             |
+361600,    PowhegPy8EG_CT10nloME_AZNLOCTEQ6L1_WWlvlv,                  10.636,        1.0,            1.0,          159085025.688
+361601,    PowhegPy8EG_CT10nloME_AZNLOCTEQ6L1_WZlvll_mll4,             4.5105,        1.0,            1.0,          45092056.4375
+361604,    PowhegPy8EG_CT10nloME_AZNLOCTEQ6L1_ZZvvll_mll4,             0.92296,       1.0,            1.0,          919222.525391
+|          |                                                           |              |               |             |
+410470,    PhPy8EG_A14_ttbar_hdamp258p75_nonallhad,                    729.77,        1.13975636159,  0.54384,      54386909784.0
+410646,    PowhegPythia8EvtGen_A14_Wt_DR_inclusive_top,                37.936,        0.9450,         1.0,          236989729.75
+410647,    PowhegPythia8EvtGen_A14_Wt_DR_inclusive_antitop,            37.905,        0.9457,         1.0,          236691708.0
+|          |                                                           |              |               |             |
+364254,    Sherpa_222_NNPDF30NNLO_llvv,                                12.501,        1.0,            1.0,          10238004.478515625
+|          |                                                           |              |               |             |
+341080,    PowhegPythia8EvtGen_CT10_AZNLOCTEQ6L1_VBFH125_WWlvlv_EF_15, 0.084843,      1.0,            0.51025,      245000
+|          |                                                           |              |               |             |
+364114,    Sherpa_221_NNPDF30NNLO_Zee_MAXHTPTV0_70_CVetoBVeto,         1981.6,        0.9751,         8.2141E-01,   6719012.3671875
+364115,    Sherpa_221_NNPDF30NNLO_Zee_MAXHTPTV0_70_CFilterBVeto,       1981.5,        0.9751,         1.1405E-01,   3583695.666015625
+364116,    Sherpa_221_NNPDF30NNLO_Zee_MAXHTPTV0_70_BFilter,            1982.2,        0.9751,         6.5766E-02,   5139202.171875
+364117,    Sherpa_221_NNPDF30NNLO_Zee_MAXHTPTV70_140_CVetoBVeto,       110.63,        0.9751,         6.9432E-01,   2702655.201171875
+364118,    Sherpa_221_NNPDF30NNLO_Zee_MAXHTPTV70_140_CFilterBVeto,     110.45,        0.9751,         1.8697E-01,   907295.31640625
+364119,    Sherpa_221_NNPDF30NNLO_Zee_MAXHTPTV70_140_BFilter,          110.5,         0.9751,         1.1942E-01,   2628718.287109375
+364120,    Sherpa_221_NNPDF30NNLO_Zee_MAXHTPTV140_280_CVetoBVeto,      40.711,        0.9751,         6.1632E-01,   3744160.0527343745
+364121,    Sherpa_221_NNPDF30NNLO_Zee_MAXHTPTV140_280_CFilterBVeto,    40.674,        0.9751,         2.3287E-01,   2499776.7890625
+364122,    Sherpa_221_NNPDF30NNLO_Zee_MAXHTPTV140_280_BFilter,         40.676,        0.9751,         1.5331E-01,   10889156.875
+364123,    Sherpa_221_NNPDF30NNLO_Zee_MAXHTPTV280_500_CVetoBVeto,      8.6718,        0.9751,         5.6351E-01,   2152620.7109375
+364124,    Sherpa_221_NNPDF30NNLO_Zee_MAXHTPTV280_500_CFilterBVeto,    8.6654,        0.9751,         2.6618E-01,   1147074.0966796875
+364125,    Sherpa_221_NNPDF30NNLO_Zee_MAXHTPTV280_500_BFilter,         8.6809,        0.9751,         1.7631E-01,   2343738.000000
+364126,    Sherpa_221_NNPDF30NNLO_Zee_MAXHTPTV500_1000,                1.8092,        0.9751,         1.0000E+00,   3677711.984375
+364127,    Sherpa_221_NNPDF30NNLO_Zee_MAXHTPTV1000_E_CMS,              0.14875,       0.9751,         1.0000E+00,   1270333.505859375
+|          |                                                           |              |               |             |
+363123,    MGPy8EG_N30NLO_Zmumu_Ht0_70_CVetoBVeto,                     1715.0,        1.141,          8.3177E-01,   446728.509765625
+363124,    MGPy8EG_N30NLO_Zmumu_Ht0_70_CFilterBVeto,                   1715.3,        1.141,          1.0869E-01,   145376.3203125
+363125,    MGPy8EG_N30NLO_Zmumu_Ht0_70_BFilter,                        1715.5,        1.141,          5.9393E-02,   136518.541015625
+363126,    MGPy8EG_N30NLO_Zmumu_Ht70_140_CVetoBVeto,                   84.555,        1.141,          7.1885E-01,   657124.818359375
+363127,    MGPy8EG_N30NLO_Zmumu_Ht70_140_CFilterBVeto,                 84.579,        1.141,          1.7413E-01,   226705.671875
+363128,    MGPy8EG_N30NLO_Zmumu_Ht70_140_BFilter,                      84.741,        1.141,          1.0832E-01,   151045.296875
+363129,    MGPy8EG_N30NLO_Zmumu_Ht140_280_CVetoBVeto,                  35.892,        1.141,          6.7445E-01,   711118.0556640625
+363130,    MGPy8EG_N30NLO_Zmumu_Ht140_280_CFilterBVeto,                35.879,        1.141,          2.0020E-01,   381193.359375
+363131,    MGPy8EG_N30NLO_Zmumu_Ht140_280_BFilter,                     35.889,        1.141,          1.2631E-01,   332610.796875
+363132,    MGPy8EG_N30NLO_Zmumu_Ht280_500_CVetoBVeto,                  8.1909,        1.141,          6.2863E-01,   327872.4296875
+363133,    MGPy8EG_N30NLO_Zmumu_Ht280_500_CFilterBVeto,                8.1825,        1.141,          2.2864E-01,   167216.60546875
+363134,    MGPy8EG_N30NLO_Zmumu_Ht280_500_BFilter,                     8.1731,        1.141,          1.4303E-01,   104018.62890625
+363135,    MGPy8EG_N30NLO_Zmumu_Ht500_700_CVetoBVeto,                  1.2725,        1.141,          5.9669E-01,   83084.94921875
+363136,    MGPy8EG_N30NLO_Zmumu_Ht500_700_CFilterBVeto,                1.2666,        1.141,          2.4952E-01,   84352.23828125
+363137,    MGPy8EG_N30NLO_Zmumu_Ht500_700_BFilter,                     1.2671,        1.141,          1.5348E-01,   10256.10546875
+363138,    MGPy8EG_N30NLO_Zmumu_Ht700_1000_CVetoBVeto,                 0.44243,       1.141,          5.7283E-01,   3355.405029296875
+363139,    MGPy8EG_N30NLO_Zmumu_Ht700_1000_CFilterBVeto,               0.44507,       1.141,          2.6215E-01,   3346.902587890625
+363140,    MGPy8EG_N30NLO_Zmumu_Ht700_1000_BFilter,                    0.44394,       1.141,          1.6209E-01,   3408.80908203125
+363141,    MGPy8EG_N30NLO_Zmumu_Ht1000_2000_CVetoBVeto,                0.14714,       1.141,          5.5380E-01,   3251.637451171875
+363142,    MGPy8EG_N30NLO_Zmumu_Ht1000_2000_CFilterBVeto,              0.14711,       1.141,          2.7787E-01,   3328.31689453125
+363143,    MGPy8EG_N30NLO_Zmumu_Ht1000_2000_BFilter,                   0.14755,       1.141,          1.7082E-01,   3311.66845703125
+363144,    MGPy8EG_N30NLO_Zmumu_Ht2000_E_CMS_CVetoBVeto,               0.0055035,     1.141,          5.3700E-01,   3217.512939453125
+363145,    MGPy8EG_N30NLO_Zmumu_Ht2000_E_CMS_CFilterBVeto,             0.0055289,     1.141,          2.9111E-01,   3191.694580078125
+363146,    MGPy8EG_N30NLO_Zmumu_Ht2000_E_CMS_BFilter,                  0.0055424,     1.141,          1.7464E-01,   3152.864501953125
+|          |                                                           |              |               |             |
+364100,    Sherpa_221_NNPDF30NNLO_Zmumu_MAXHTPTV0_70_CVetoBVeto,       1982.3,        0.9751,         8.2179E-01,   6693737.23046875
+364101,    Sherpa_221_NNPDF30NNLO_Zmumu_MAXHTPTV0_70_CFilterBVeto,     1982.1,        0.9751,         1.1356E-01,   2859469.359375
+364102,    Sherpa_221_NNPDF30NNLO_Zmumu_MAXHTPTV0_70_BFilter,          1981.5,        0.9751,         6.5797E-02,   4966492.5810546875
+364103,    Sherpa_221_NNPDF30NNLO_Zmumu_MAXHTPTV70_140_CVetoBVeto,     109.07,        0.9751,         6.8978E-01,   2717596.4453125
+364104,    Sherpa_221_NNPDF30NNLO_Zmumu_MAXHTPTV70_140_CFilterBVeto,   108.94,        0.9751,         1.9588E-01,   902414.361328125
+364105,    Sherpa_221_NNPDF30NNLO_Zmumu_MAXHTPTV70_140_BFilter,        108.98,        0.9751,         1.1768E-01,   2089434.5532226565
+364106,    Sherpa_221_NNPDF30NNLO_Zmumu_MAXHTPTV140_280_CVetoBVeto,    39.884,        0.9751,         6.0179E-01,   3716021.1621093745
+364107,    Sherpa_221_NNPDF30NNLO_Zmumu_MAXHTPTV140_280_CFilterBVeto,  39.857,        0.9751,         2.3545E-01,   2491777.66796875
+364108,    Sherpa_221_NNPDF30NNLO_Zmumu_MAXHTPTV140_280_BFilter,       39.891,        0.9751,         1.5622E-01,   3463716.9638671875
+364109,    Sherpa_221_NNPDF30NNLO_Zmumu_MAXHTPTV280_500_CVetoBVeto,    8.526,         0.9751,         5.6012E-01,   1686151.0625
+364110,    Sherpa_221_NNPDF30NNLO_Zmumu_MAXHTPTV280_500_CFilterBVeto,  8.5261,        0.9751,         2.6632E-01,   1145984.96484375
+364111,    Sherpa_221_NNPDF30NNLO_Zmumu_MAXHTPTV280_500_BFilter,       8.5273,        0.9751,         1.7660E-01,   2344779.04296875
+364112,    Sherpa_221_NNPDF30NNLO_Zmumu_MAXHTPTV500_1000,              1.7871,        0.9751,         1.0000E+00,   2980758.96484375
+364113,    Sherpa_221_NNPDF30NNLO_Zmumu_MAXHTPTV1000_E_CMS,            0.1476,        0.9751,         1.0000E+00,   1274067.2333984375
+|          |                                                           |              |               |             |
+396010,    SUSY_550p0_1p0,                                             8.18E-04,      1.0,            0.97,         2092.7001953125
+395985,    SUSY_400p0_250p0,                                           3.62E-03,      1.0,            0.957,        2495.89
+395971,    SUSY_300p0_200p0,                                           1.222E-02,     1.0,            0.93141,      2657.149658203125
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

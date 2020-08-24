@@ -1,0 +1,4 @@
+/home/mleigh/workdir/First_Stage/build/x86_64-slc6-gcc62-opt/lib/libAnalysisCamEvent.confdb
+/home/mleigh/workdir/First_Stage/build/x86_64-slc6-gcc62-opt/lib/libMyPackage.confdb
+/home/mleigh/workdir/First_Stage/build/x86_64-slc6-gcc62-opt/lib/libAthAnalysisBaseComps.confdb
+/home/mleigh/workdir/First_Stage/build/x86_64-slc6-gcc62-opt/lib/libSUSYTools.confdb

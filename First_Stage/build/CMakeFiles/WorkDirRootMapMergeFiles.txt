@@ -1,0 +1,3 @@
+/home/mleigh/workdir/First_Stage/build/AnalysisCam/AnalysisCamEvent/CMakeFiles/AnalysisCamEvent.dsomap
+/home/mleigh/workdir/First_Stage/build/athena/Control/AthAnalysisBaseComps/CMakeFiles/AthAnalysisBaseCompsDict.dsomap
+/home/mleigh/workdir/First_Stage/build/athena/PhysicsAnalysis/SUSYPhys/SUSYTools/CMakeFiles/SUSYToolsDict.dsomap

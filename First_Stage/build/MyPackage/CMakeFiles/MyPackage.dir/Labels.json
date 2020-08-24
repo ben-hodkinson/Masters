@@ -1,0 +1,19 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/source/MyPackage/src/components/MyPackage_entries.cxx"
+		},
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/source/MyPackage/src/components/MyPackage_load.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"MyPackage"
+		],
+		"name" : "MyPackage"
+	}
+}

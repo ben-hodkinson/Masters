@@ -1,0 +1,10 @@
+[ libAnalysisCamEvent.so ]
+# List of selected classes
+class CamDeque
+class CamEvent
+class CamObject
+class CamVector
+header AnalysisCamEvent/CamDeque.h
+header AnalysisCamEvent/CamEvent.h
+header AnalysisCamEvent/CamObject.h
+header AnalysisCamEvent/CamVector.h

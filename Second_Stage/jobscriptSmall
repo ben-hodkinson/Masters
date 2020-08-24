@@ -1,0 +1,19 @@
+#!/bin/zsh
+#PBS -l cput=10:00:00
+
+pwd
+hostname
+echo Hello World
+
+cd /home/mleigh/workdir/Second_Stage/
+
+source setup.sh
+
+rm /Results/Merge/top_2in3_top_lax.root
+rm /src/core.*
+
+cd src
+
+echo Running the thing!!!
+# ./Analysis cut selection input_files output_name, label
+./Analysis all Zee_strict tmpSmall.files ../Results/Merge/test.root ttbar

@@ -1,0 +1,22 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/source/athena/Control/AthAnalysisBaseComps/src/AthAnalysisAlgorithm.cxx"
+		},
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/source/athena/Control/AthAnalysisBaseComps/src/AthAnalysisHelper.cxx"
+		},
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/source/athena/Control/AthAnalysisBaseComps/src/AthROOTErrorHandlerSvc.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"AthAnalysisBaseComps"
+		],
+		"name" : "AthAnalysisBaseCompsLib"
+	}
+}

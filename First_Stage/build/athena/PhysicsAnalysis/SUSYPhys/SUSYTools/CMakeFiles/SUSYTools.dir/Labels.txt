@@ -1,0 +1,9 @@
+# Target labels
+ SUSYTools
+# Source files and their labels
+/home/mleigh/workdir/First_Stage/source/athena/PhysicsAnalysis/SUSYPhys/SUSYTools/src/ApplySUSYTools.h
+/home/mleigh/workdir/First_Stage/source/athena/PhysicsAnalysis/SUSYPhys/SUSYTools/src/SUSYToolsAlg.h
+/home/mleigh/workdir/First_Stage/source/athena/PhysicsAnalysis/SUSYPhys/SUSYTools/src/ApplySUSYTools.cxx
+/home/mleigh/workdir/First_Stage/source/athena/PhysicsAnalysis/SUSYPhys/SUSYTools/src/SUSYToolsAlg.cxx
+/home/mleigh/workdir/First_Stage/source/athena/PhysicsAnalysis/SUSYPhys/SUSYTools/src/components/SUSYTools_entries.cxx
+/home/mleigh/workdir/First_Stage/source/athena/PhysicsAnalysis/SUSYPhys/SUSYTools/src/components/SUSYTools_load.cxx

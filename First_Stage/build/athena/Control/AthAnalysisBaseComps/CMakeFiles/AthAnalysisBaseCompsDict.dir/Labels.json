@@ -1,0 +1,26 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/build/athena/Control/AthAnalysisBaseComps/CMakeFiles/AthAnalysisBaseCompsDictReflexDict.cxx",
+			"labels" : 
+			[
+				"AthAnalysisBaseComps"
+			]
+		},
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/source/athena/Control/AthAnalysisBaseComps/AthAnalysisBaseComps/AthAnalysisBaseCompsDict.h"
+		},
+		{
+			"file" : "/home/mleigh/workdir/First_Stage/source/athena/Control/AthAnalysisBaseComps/AthAnalysisBaseComps/selection.xml"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"AthAnalysisBaseComps"
+		],
+		"name" : "AthAnalysisBaseCompsDict"
+	}
+}

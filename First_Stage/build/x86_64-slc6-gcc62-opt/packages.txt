@@ -1,0 +1,5 @@
+# Regular package(s) built in WorkDir - 1.0.0
+AnalysisCam/AnalysisCamEvent AnalysisCamEvent-02-00-00-branch
+MyPackage MyPackage-00-00-01
+athena/Control/AthAnalysisBaseComps <unknown>
+athena/PhysicsAnalysis/SUSYPhys/SUSYTools <unknown>
